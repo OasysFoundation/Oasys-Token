@@ -103,11 +103,11 @@ contract OasysToken is StandardToken {
 
     function OasysToken(
         ) {
-        balances[msg.sender] = 1000000000;
-        totalSupply = 1000000000;
-        name = "OASYS";                                   
-        decimals = 18;                            
-        symbol = "OAS";                           
+        balances[msg.sender] = 1000000000000000000000000000;
+        totalSupply = 1000000000000000000000000000;
+        name = "OASYS";
+        decimals = 18;
+        symbol = "OAS";
     }
 
     /* Approves and then calls the receiving contract */
